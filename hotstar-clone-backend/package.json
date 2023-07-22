@@ -2,10 +2,11 @@
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.3.1",
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   },
   "name": "hotstar-clone-backend",
   "version": "1.0.0",
@@ -16,6 +17,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "description": ""
 }

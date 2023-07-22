@@ -1,7 +1,11 @@
+require('dotenv').config();
+
 const mongoose = require("mongoose");
 
 const connectDB = () => {
-  const connectionString = 'mongodb+srv://Kirtan:Kirtan%40998@cluster0.wn77kjj.mongodb.net/hotstar';
+
+  const connectionString =process.env.MONGO_URL;
+
 
   mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Connected to MongoDB'))
