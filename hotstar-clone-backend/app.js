@@ -15,7 +15,7 @@ const headerRoute = require("./routes/headerRoute")
 const app = express();
 const port = process.env.PORT || 8080;
 
-// Connect to the database
+// Connect to the database of mongodb 
 connectDB();
 
 // Convert into JSON
